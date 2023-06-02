@@ -9,9 +9,6 @@ auto_rollback = true
 cmd = "start.sh"
 entrypoint = "sh"
 
-[mounts]
-source = "data"
-destination = "/data"
 
 [[services]]
 internal_port = 8_080
@@ -43,7 +40,7 @@ script_checks = [ ]
   interval = "10s"
   grace_period = "5s"
   method = "get"
-  path = "/healthcheck"
+  path = "/"
   protocol = "http"
   timeout = "2s"
   tls_skip_verify = false
