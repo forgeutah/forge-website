@@ -13,17 +13,27 @@ export default function Index() {
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
             <div className="absolute inset-0">
-              <img
+              {/* <img
                 className="h-full w-full object-cover"
                 src="https://user-images.githubusercontent.com/1500684/157774694-99820c51-8165-4908-a031-34fc371ac0d6.jpg"
                 alt="Sonic Youth On Stage"
-              />
-              <div className="absolute inset-0 bg-[color:rgba(254,204,27,0.5)] mix-blend-multiply" />
+              /> */}
+              <div className="absolute inset-0 bg-[color:rgba(230,230,230,0.5)] mix-blend-multiply" />
             </div>
-            <div className="relative px-4 pb-8 pt-16 sm:px-6 sm:pb-14 sm:pt-24 lg:px-8 lg:pb-20 lg:pt-32">
-              <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
-                <span className="block uppercase text-yellow-500 drop-shadow-md">
-                  FORGE UTAH 
+            <div className="relative px-4 pb-8 pt-8 sm:px-6 sm:pb-14 sm:pt-24 lg:px-8 lg:pb-20 lg:pt-8">
+            <img
+                src="https://github.com/forgeutah/forge-website/blob/main/public/images/forge-icon.png?raw=true"
+                alt="Forge Utah Foundation"
+                className="mx-auto mt-8 w-full max-w-[12rem] md:max-w-[16rem]"
+              />
+              <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-4xl lg:text-6xl">
+                <span className="block uppercase drop-shadow-md text-[color:rgba(99,100,103,1.0)]">
+                  Forge Utah
+                </span>
+              </h1>
+              <h1 className="text-center text-2xl font-extrabold tracking-tight sm:text-2xl lg:text-4xl">
+                <span className="block uppercase drop-shadow-md text-[color:rgba(99,100,103,1.0)]">
+                  Foundation
                 </span>
               </h1>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
@@ -55,19 +65,13 @@ export default function Index() {
                   </div>
                 )}
               </div>
-              <img
-                src="https://github.com/forgeutah/forge-website/blob/main/public/images/forge-icon.png?raw=true"
-                alt="Forge Utah Foundation"
-                className="mx-auto mt-16 w-full max-w-[12rem] md:max-w-[16rem]"
-              />
-
             </div>
           </div>
         </div>
 
         <div className="mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">
           <div className="mt-6 flex flex-wrap justify-center gap-8">
-            {[
+            {/*[
               {
                 src: "https://user-images.githubusercontent.com/1500684/157764397-ccd8ea10-b8aa-4772-a99b-35de937319e1.svg",
                 alt: "Fly.io",
@@ -131,7 +135,7 @@ export default function Index() {
               >
                 <img alt={img.alt} src={img.src} className="object-contain" />
               </a>
-            ))}
+            ))*/}
           </div>
         </div>
       </div>
