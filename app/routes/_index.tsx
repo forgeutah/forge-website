@@ -26,7 +26,7 @@ export default function Index() {
                 alt="Forge Utah Foundation"
                 className="mx-auto mt-8 w-full max-w-[12rem] md:max-w-[16rem]"
               />
-              <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-4xl lg:text-6xl">
+              <h1 className="pt-5 text-center text-4xl font-extrabold tracking-tight sm:text-4xl lg:text-6xl">
                 <span className="block uppercase drop-shadow-md text-[color:rgba(99,100,103,1.0)]">
                   Forge Utah
                 </span>
@@ -36,7 +36,7 @@ export default function Index() {
                   Foundation
                 </span>
               </h1>
-              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
+              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-[color:rgba(99,100,103,1.0)] sm:max-w-3xl">
                 The Technology Community for Utah's Creators, Builders, and Makers.
               </p>
               <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
@@ -48,10 +48,10 @@ export default function Index() {
                     View Notes for {user.email}
                   </Link>
                 ) : (
-                  <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-3 sm:space-y-0">
+                  <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-1 sm:gap-3 sm:space-y-0">
                     <Link
                       to="https://join.slack.com/t/forgeutah/shared_invite/zt-pietaeqb-HetfD2OIzn1RHtDtV~CH5g"
-                      className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
+                      className="flex items-center justify-center rounded-md border bg-white px-4 py-3 text-base font-medium text-[color:rgba(99,100,103,1.0)] shadow-sm hover:bg-yellow-50 sm:px-8"
                       target="_blank"
                     >
                       Join Us On Slack
